@@ -1,6 +1,6 @@
 console.log('Loaded!');
 
-var element = document.getElementById("romy");
+var element = document.getElementById('romy');
 element.onclick = function() {
     var interval = setInterval(moveRight, 100);
 };
